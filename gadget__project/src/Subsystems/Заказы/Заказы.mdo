@@ -16,4 +16,5 @@
   <content>Document.РасходныеНакладные</content>
   <content>Document.ЗаказыКлиента</content>
   <content>Report.ОстаткиТоваров</content>
+  <content>Catalog.Пользователи</content>
 </mdclass:Subsystem>
