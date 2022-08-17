@@ -52,6 +52,8 @@
   <sessionParameters>SessionParameter.ПользовательСеанса</sessionParameters>
   <roles>Role.СБ_РаботаСДанными</roles>
   <roles>Role.СБ_ПросмотрДанных</roles>
+  <commonModules>CommonModule.ОбработчикиПодписок</commonModules>
+  <eventSubscriptions>EventSubscription.ЗаписьЗаказаПоставщику</eventSubscriptions>
   <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Поставщики</catalogs>
