@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f37dfbe-c84c-44d8-bf62-2e0baf0c11fa">
+  <name>ЗаписьЗаказаПоставщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись заказа поставщику</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗаказыПоставщикам</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбработчикиПодписок.ЗаписьЗаказаПоставщикуПриЗаписи</handler>
+</mdclass:EventSubscription>
